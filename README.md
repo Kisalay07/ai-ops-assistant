@@ -141,40 +141,34 @@ The service will be available at:
 
 http://127.0.0.1:8000
 
-🧪 Example Prompts
+## 🧪 Example Prompts
 
-Use these prompts to test the full multi-agent + tool pipeline:
+Use these prompts to test the full **multi-agent + tool** pipeline:
 
-Daily briefing
+**Daily briefing**  
+> “Give me a daily briefing with top national and global news and today’s weather in New Delhi.”
 
-“Give me a daily briefing with top national and global news and today’s weather in New Delhi.”
+**News analysis**  
+> “Summarize today’s most important India-related technology or startup news and explain why it matters.”
 
-News analysis
+**Weather lookup**  
+> “What’s the current weather in Mumbai and should I expect heavy rain today?”
 
-“Summarize today’s most important India-related technology or startup news and explain why it matters.”
+---
 
-Weather lookup-
+## ⚖ Known Limitations / Tradeoffs
 
-“What’s the current weather in Mumbai and should I expect heavy rain today?”
+- **Stateless execution**  
+  No long-term memory between requests
 
-⚖ Known Limitations / Tradeoffs
+- **External API dependency**  
+  Latency and availability depend on third-party services
 
-Stateless execution
+- **No caching**  
+  Repeated requests may re-fetch the same data
 
-No long-term memory between requests
+- **Single-process local server**  
+  No built-in scaling, authentication, or rate limiting
 
-External API dependency
-
-Latency and availability depend on third-party services
-
-No caching
-
-Repeated requests may re-fetch the same data
-
-Single-process local server
-
-No built-in scaling, authentication, or rate limiting
-
-Local-first
-
-Designed for development, not production deployment
+- **Local-first**  
+  Designed for development, not production deployment
