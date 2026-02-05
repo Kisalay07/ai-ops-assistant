@@ -127,9 +127,6 @@ PORT=8000
 LOG_LEVEL=INFO
 
 
-⚠️ Never commit .env files.
-Ensure .env is listed in .gitignore.
-
 ▶️ Running the Project (One Command)
 
 Run this command from the folder that contains main.py:
