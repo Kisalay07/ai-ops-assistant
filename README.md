@@ -146,10 +146,10 @@ Use these prompts to test the full **multi-agent + tool** pipeline:
 > “Give me a daily briefing with top national and global news and today’s weather in New Delhi.”
 
 **News analysis**  
-> “Summarize today’s most important India-related technology or startup news and explain why it matters.”
+> “Are there any major events or news in India today that could impact business or operations?”
 
 **Weather lookup**  
-> “What’s the current weather in Mumbai and should I expect heavy rain today?”
+> “Check the weather in Bengaluru and find any related news affecting the city or region.”
 
 ---
 
